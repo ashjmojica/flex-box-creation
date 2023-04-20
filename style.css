@@ -1,14 +1,28 @@
 
   .flex-container {
     display: grid;
+    grid-template-areas: 
+    "header header header";
   }
+
+
   img {
-    height: 300px;
+    height: 150px;
+    width: 150px
   }
   
 
 .flex-container-2 {
     display: grid;
     height: 100px;
-    width: 150px;
+    width: 100px;
+    grid-template-areas: 
+    "ucRight ucRight ucRight";
   }
+
+  button {
+    background-color: rgb(50, 147, 200);
+    width: 200px;
+  }
+
+  
