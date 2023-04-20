@@ -1,28 +1,47 @@
+.flex-container {
+  padding: 40px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-  .flex-container {
-    display: grid;
-    grid-template-areas: 
-    "header header header";
-  }
+img {
+  height: 150px;
+  width: 150px;
+}
 
+.ucRight {
+  height: 150px;
+  width: 150px;
+  justify-content: right;
+}
 
-  img {
-    height: 150px;
-    width: 150px
-  }
-  
+.ucLeft {
+  height: 150px;
+  width: 150px;
+  justify-content: left;
+}
 
 .flex-container-2 {
-    display: grid;
-    height: 100px;
-    width: 100px;
-    grid-template-areas: 
-    "ucRight ucRight ucRight";
-  }
+  padding: 40px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+}
 
-  button {
-    background-color: rgb(50, 147, 200);
-    width: 200px;
-  }
+button {
+  background-color: rgb(50, 147, 200);
+  width: 180px;
+}
 
-  
+.flex-container-3 {
+   padding: 40px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+}
+
