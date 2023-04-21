@@ -21,10 +21,10 @@ a {
   flex-wrap: wrap;
   gap: 20px;
 }
-.left {
+.ucLeft {
   height: 550px;
 }
-.left > img {
+.ucLeft > img {
   height: 100%;
 }
 
@@ -73,7 +73,7 @@ a {
 }
 
 @media (width <= 800px) {
-  .left {
+  .ucRight {
     display: none;
   }
 }
