@@ -1,13 +1,16 @@
-.flex-container {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #385185;
+  font-weight: 700;
+}
+.flex-box {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
-}
-
-img {
-  height: 150px;
-  width: 150px;
 }
 
 .ucRight {
@@ -18,11 +21,10 @@ img {
   flex-wrap: wrap;
   gap: 20px;
 }
-
-.ucLeft {
+.left {
   height: 550px;
 }
-.ucLeft > img {
+.left > img {
   height: 100%;
 }
 
@@ -60,7 +62,7 @@ img {
   color: white;
   background-color: #59b4f9;
 }
-.instalogo {
+.logo {
   height: 70px;
   margin-bottom: 30px;
 }
